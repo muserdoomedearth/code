@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_8f7d9ce0f94e4e31b561946c96098955 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8f7d9ce0f94e4e31b561946c96098955" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_8f7d9ce0f94e4e31b561946c96098955 = L.map(
+                                  'map_8f7d9ce0f94e4e31b561946c96098955',
+                                  {center: [30.324317,78.041934],
+                                  zoom: 13,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_bdea81f438bd4dcb9ea398d9f6f27248 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+        
+    
+            var circle_marker_6af14ea05e884e75a5be431bfcf35c06 = L.circleMarker(
+                [30.3279,78.0453],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#199c8f",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#199c8f",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_df31de5782ee481caa831e57b34e3852 = L.popup({maxWidth: '300'});
+
+            
+                var html_4c222d9d8fb64a32a30df5d326144cda = $('<div id="html_4c222d9d8fb64a32a30df5d326144cda" style="width: 100.0%; height: 100.0%;">Ambrosia, 21, Centre Point, Near Astley Hall, Rajpur Road, Chukkuwala, Dehradun</div>')[0];
+                popup_df31de5782ee481caa831e57b34e3852.setContent(html_4c222d9d8fb64a32a30df5d326144cda);
+            
+
+            circle_marker_6af14ea05e884e75a5be431bfcf35c06.bindPopup(popup_df31de5782ee481caa831e57b34e3852);
+
+            
+        
+    
+            var circle_marker_3f20e5d15bc042aba0dcb7eb2096e802 = L.circleMarker(
+                [30.3351,78.0533],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8614a3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8614a3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_c8643cf0829a49e2a10b23e6039d6810 = L.popup({maxWidth: '300'});
+
+            
+                var html_6fcfeff6b744489c8241f7f3773cef7c = $('<div id="html_6fcfeff6b744489c8241f7f3773cef7c" style="width: 100.0%; height: 100.0%;">Anandam, 69, Krishna Tower, Rajpur Road, Hathibarkala Salwala, Dehradun</div>')[0];
+                popup_c8643cf0829a49e2a10b23e6039d6810.setContent(html_6fcfeff6b744489c8241f7f3773cef7c);
+            
+
+            circle_marker_3f20e5d15bc042aba0dcb7eb2096e802.bindPopup(popup_c8643cf0829a49e2a10b23e6039d6810);
+
+            
+        
+    
+            var circle_marker_8e8886ae2557475fbf0a3131d6943729 = L.circleMarker(
+                [30.3336,78.0516],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8614a3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8614a3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_1379408582c04c8093878ad14ca507b6 = L.popup({maxWidth: '300'});
+
+            
+                var html_f9fee2c7de6b4e5b9974ac6fa714abe1 = $('<div id="html_f9fee2c7de6b4e5b9974ac6fa714abe1" style="width: 100.0%; height: 100.0%;">KFC, 65A, Rajpur Road, Hathibarkala Salwala, Dehradun</div>')[0];
+                popup_1379408582c04c8093878ad14ca507b6.setContent(html_f9fee2c7de6b4e5b9974ac6fa714abe1);
+            
+
+            circle_marker_8e8886ae2557475fbf0a3131d6943729.bindPopup(popup_1379408582c04c8093878ad14ca507b6);
+
+            
+        
+    
+            var circle_marker_80141e6c8c0b431b9e80c7a06e9e0a7e = L.circleMarker(
+                [30.3288,78.0463],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8614a3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8614a3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_029d7df053a446449043eadec74bc539 = L.popup({maxWidth: '300'});
+
+            
+                var html_f050a39f141242fba48d7961334bddff = $('<div id="html_f050a39f141242fba48d7961334bddff" style="width: 100.0%; height: 100.0%;">Ellora Homeaids, 25, Rajpur Road, Chukkuwala, Dehradun</div>')[0];
+                popup_029d7df053a446449043eadec74bc539.setContent(html_f050a39f141242fba48d7961334bddff);
+            
+
+            circle_marker_80141e6c8c0b431b9e80c7a06e9e0a7e.bindPopup(popup_029d7df053a446449043eadec74bc539);
+
+            
+        
+    
+            var circle_marker_7eeae5f3885c4e8a9a4ce8b832d3034c = L.circleMarker(
+                [30.3269,78.0449],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8614a3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8614a3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_fc68a95332db4b7abdcc42d172e6e6ff = L.popup({maxWidth: '300'});
+
+            
+                var html_b83f9d226cc44f29b59d14ed561980a9 = $('<div id="html_b83f9d226cc44f29b59d14ed561980a9" style="width: 100.0%; height: 100.0%;">Barista, 15 A, English Book Depot, Rajpur Road, Chukkuwala, Dehradun</div>')[0];
+                popup_fc68a95332db4b7abdcc42d172e6e6ff.setContent(html_b83f9d226cc44f29b59d14ed561980a9);
+            
+
+            circle_marker_7eeae5f3885c4e8a9a4ce8b832d3034c.bindPopup(popup_fc68a95332db4b7abdcc42d172e6e6ff);
+
+            
+        
+    
+            var circle_marker_9adcab2b478a4b4692a2ed8b3320c4d8 = L.circleMarker(
+                [30.36,78.0679],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#199c8f",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#199c8f",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_0632c2d641d94814b669b481db5c719f = L.popup({maxWidth: '300'});
+
+            
+                var html_0b2262ef3f9e4f1582f23832a84403d3 = $('<div id="html_0b2262ef3f9e4f1582f23832a84403d3" style="width: 100.0%; height: 100.0%;">Bottoms Up Bistro, 2nd Floor, Jakhan Tower, Above Corporation Bank, Rajpur Road, Rajpur, Dehradun</div>')[0];
+                popup_0632c2d641d94814b669b481db5c719f.setContent(html_0b2262ef3f9e4f1582f23832a84403d3);
+            
+
+            circle_marker_9adcab2b478a4b4692a2ed8b3320c4d8.bindPopup(popup_0632c2d641d94814b669b481db5c719f);
+
+            
+        
+    
+            var circle_marker_249514ffba0f4301baac475ff231d094 = L.circleMarker(
+                [30.3291,78.0115],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#199c8f",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#199c8f",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_b2643e44cf24482fbe9333019ec07150 = L.popup({maxWidth: '300'});
+
+            
+                var html_c1cb19068b0f493b9bb600ac36e48374 = $('<div id="html_c1cb19068b0f493b9bb600ac36e48374" style="width: 100.0%; height: 100.0%;">Barbeque Planet, Chandan Palace, Opposite Wadia Institute, GMS Road, Near Balliwala, Dehradun</div>')[0];
+                popup_b2643e44cf24482fbe9333019ec07150.setContent(html_c1cb19068b0f493b9bb600ac36e48374);
+            
+
+            circle_marker_249514ffba0f4301baac475ff231d094.bindPopup(popup_b2643e44cf24482fbe9333019ec07150);
+
+            
+        
+    
+            var circle_marker_a359e3a220cd40938eea079c16c16ca1 = L.circleMarker(
+                [30.3279,78.0464],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#199c8f",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#199c8f",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_fc3a6776dd0147498831529f341d5b05 = L.popup({maxWidth: '300'});
+
+            
+                var html_1df58a84b3d9458884004bf60233e222 = $('<div id="html_1df58a84b3d9458884004bf60233e222" style="width: 100.0%; height: 100.0%;">Black Pepper Restaurant, 3, First and Second Floor, Astley Hall, Rajpur Road, Karanpur</div>')[0];
+                popup_fc3a6776dd0147498831529f341d5b05.setContent(html_1df58a84b3d9458884004bf60233e222);
+            
+
+            circle_marker_a359e3a220cd40938eea079c16c16ca1.bindPopup(popup_fc3a6776dd0147498831529f341d5b05);
+
+            
+        
+    
+            var circle_marker_875600bd35974f02b4f20b20f9f13e80 = L.circleMarker(
+                [30.323,78.0406],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8614a3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8614a3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_846ab591e1694747a91d3031a8082ea7 = L.popup({maxWidth: '300'});
+
+            
+                var html_3a4cde959bdd453aaeb75f777a0b453c = $('<div id="html_3a4cde959bdd453aaeb75f777a0b453c" style="width: 100.0%; height: 100.0%;">31 Flavours, 39, Paltan Bazar Road, Paltan Bazaar, Dehradun</div>')[0];
+                popup_846ab591e1694747a91d3031a8082ea7.setContent(html_3a4cde959bdd453aaeb75f777a0b453c);
+            
+
+            circle_marker_875600bd35974f02b4f20b20f9f13e80.bindPopup(popup_846ab591e1694747a91d3031a8082ea7);
+
+            
+        
+    
+            var circle_marker_8ee0c8a09aea457d962feaa5b4d35870 = L.circleMarker(
+                [30.3469,78.0625],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#199c8f",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#199c8f",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_da5b9cfd55a84a58a1c55181f5a0011f = L.popup({maxWidth: '300'});
+
+            
+                var html_6f5a7b8f4d6d4934917ea8e73bb8f9d8 = $('<div id="html_6f5a7b8f4d6d4934917ea8e73bb8f9d8" style="width: 100.0%; height: 100.0%;">Kalsang Friends Corner, opp - OSHO ,88/A,  Rajpur Road, Dehradun</div>')[0];
+                popup_da5b9cfd55a84a58a1c55181f5a0011f.setContent(html_6f5a7b8f4d6d4934917ea8e73bb8f9d8);
+            
+
+            circle_marker_8ee0c8a09aea457d962feaa5b4d35870.bindPopup(popup_da5b9cfd55a84a58a1c55181f5a0011f);
+
+            
+        
+    
+            var circle_marker_f1460f95727d49138137dc1e0e37809a = L.circleMarker(
+                [30.3253,78.0427],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8614a3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8614a3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_f6d4008075eb46b9ab55b88c86551049 = L.popup({maxWidth: '300'});
+
+            
+                var html_5e80d8abb2ac47a081da7187e8b78b14 = $('<div id="html_5e80d8abb2ac47a081da7187e8b78b14" style="width: 100.0%; height: 100.0%;">Kumar Sweet Shop, R1, Rajpur Road, Chukkuwala, Dehradun</div>')[0];
+                popup_f6d4008075eb46b9ab55b88c86551049.setContent(html_5e80d8abb2ac47a081da7187e8b78b14);
+            
+
+            circle_marker_f1460f95727d49138137dc1e0e37809a.bindPopup(popup_f6d4008075eb46b9ab55b88c86551049);
+
+            
+        
+    
+            var circle_marker_3e30bf553b3e4464813f0a383514b7a9 = L.circleMarker(
+                [30.3425,78.0608],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8614a3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8614a3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_b71128673c574f1f80e54b5bf0de3285 = L.popup({maxWidth: '300'});
+
+            
+                var html_8cd353ad8ec54308bf371f7ca3e035d3 = $('<div id="html_8cd353ad8ec54308bf371f7ca3e035d3" style="width: 100.0%; height: 100.0%;">Pizza Hut, 542, Rajpur Road, Dehradun Nagar Nigam, Salwala, Dehradun</div>')[0];
+                popup_b71128673c574f1f80e54b5bf0de3285.setContent(html_8cd353ad8ec54308bf371f7ca3e035d3);
+            
+
+            circle_marker_3e30bf553b3e4464813f0a383514b7a9.bindPopup(popup_b71128673c574f1f80e54b5bf0de3285);
+
+            
+        
+    
+            var circle_marker_21cbad847a664573ab19c95af11d75d1 = L.circleMarker(
+                [30.3635,78.0694],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#199c8f",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#199c8f",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_20b8c4f4dd214f968ef633262f72c0af = L.popup({maxWidth: '300'});
+
+            
+                var html_3acdec2ede4e4071825e68e9a26bdea2 = $('<div id="html_3acdec2ede4e4071825e68e9a26bdea2" style="width: 100.0%; height: 100.0%;">Grille Restaurant, 4th Floor, Axiom Mall, 152 Rajpur Road, Jakhan, Dehradun</div>')[0];
+                popup_20b8c4f4dd214f968ef633262f72c0af.setContent(html_3acdec2ede4e4071825e68e9a26bdea2);
+            
+
+            circle_marker_21cbad847a664573ab19c95af11d75d1.bindPopup(popup_20b8c4f4dd214f968ef633262f72c0af);
+
+            
+        
+    
+            var circle_marker_dc9c486f791a4badb635549ee6b25242 = L.circleMarker(
+                [30.3892,78.0948],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#199c8f",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#199c8f",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_eecdf671560e4a7aad0a6c3d1dc4c2d4 = L.popup({maxWidth: '300'});
+
+            
+                var html_767d8a24c2f545c199707de06beff0a6 = $('<div id="html_767d8a24c2f545c199707de06beff0a6" style="width: 100.0%; height: 100.0%;">Orchard, 3 D, Dak Patti, Near Mdda Park, Rajpur, Dehradun</div>')[0];
+                popup_eecdf671560e4a7aad0a6c3d1dc4c2d4.setContent(html_767d8a24c2f545c199707de06beff0a6);
+            
+
+            circle_marker_dc9c486f791a4badb635549ee6b25242.bindPopup(popup_eecdf671560e4a7aad0a6c3d1dc4c2d4);
+
+            
+        
+    
+            var circle_marker_a68ba4391e3c432f9bb27b7ab5f6287e = L.circleMarker(
+                [30.3221,78.0033],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8614a3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8614a3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_5924da8c0d6146548765570742531375 = L.popup({maxWidth: '300'});
+
+            
+                var html_4256848fde9948de9785420daf4d2f1d = $('<div id="html_4256848fde9948de9785420daf4d2f1d" style="width: 100.0%; height: 100.0%;">Pizza Hut, C1/101, Indra Nagar, Dehradun Nagar Nigam, Balliwala, Dehradun</div>')[0];
+                popup_5924da8c0d6146548765570742531375.setContent(html_4256848fde9948de9785420daf4d2f1d);
+            
+
+            circle_marker_a68ba4391e3c432f9bb27b7ab5f6287e.bindPopup(popup_5924da8c0d6146548765570742531375);
+
+            
+        
+    
+            var circle_marker_4d0ed637f2e447fb8fa2c19de59db268 = L.circleMarker(
+                [30.3289,78.0461],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8614a3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8614a3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_5aecfc2a92fa4d6b9078caa51fd461d8 = L.popup({maxWidth: '300'});
+
+            
+                var html_8a78311191e24b5095a8f28aba39a22c = $('<div id="html_8a78311191e24b5095a8f28aba39a22c" style="width: 100.0%; height: 100.0%;">Baskin Robbins, 9, Astley Hall, Rajpur Road, Karanpur, Dehradun</div>')[0];
+                popup_5aecfc2a92fa4d6b9078caa51fd461d8.setContent(html_8a78311191e24b5095a8f28aba39a22c);
+            
+
+            circle_marker_4d0ed637f2e447fb8fa2c19de59db268.bindPopup(popup_5aecfc2a92fa4d6b9078caa51fd461d8);
+
+            
+        
+    
+            var circle_marker_8e7ed69a5806449980add7b580999e12 = L.circleMarker(
+                [30.3654,78.0702],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#199c8f",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#199c8f",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_79678b11e3e445e495153bdc5b55c50f = L.popup({maxWidth: '300'});
+
+            
+                var html_5662ce0d9e33489c894fc1f6b1e913b6 = $('<div id="html_5662ce0d9e33489c894fc1f6b1e913b6" style="width: 100.0%; height: 100.0%;">The Terrace - Four Points by Sheraton Dehradun, 152/4, Rajpur Road, Jakhan, Dehradun</div>')[0];
+                popup_79678b11e3e445e495153bdc5b55c50f.setContent(html_5662ce0d9e33489c894fc1f6b1e913b6);
+            
+
+            circle_marker_8e7ed69a5806449980add7b580999e12.bindPopup(popup_79678b11e3e445e495153bdc5b55c50f);
+
+            
+        
+    
+            var circle_marker_92f0ee87e36c4bfe88352bf1b5aef443 = L.circleMarker(
+                [30.3224,78.043],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8614a3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8614a3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_93cb42b786074ffda451b7dffa2c327d = L.popup({maxWidth: '300'});
+
+            
+                var html_aa97f52b98a24c68a4e581ff49b3da75 = $('<div id="html_aa97f52b98a24c68a4e581ff49b3da75" style="width: 100.0%; height: 100.0%;">Cafe Coffee Day, Darshan Lal Chowk, Near Clock Tower, Race Course, Dehradun</div>')[0];
+                popup_93cb42b786074ffda451b7dffa2c327d.setContent(html_aa97f52b98a24c68a4e581ff49b3da75);
+            
+
+            circle_marker_92f0ee87e36c4bfe88352bf1b5aef443.bindPopup(popup_93cb42b786074ffda451b7dffa2c327d);
+
+            
+        
+    
+            var circle_marker_9a89168ea2bc4511b7e7b376e42bef2b = L.circleMarker(
+                [30.3222,78.0027],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8614a3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8614a3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_1477e2ceccfa4332b56986cab4d5a1c4 = L.popup({maxWidth: '300'});
+
+            
+                var html_c40041ef88b440cebbe069b849e44df1 = $('<div id="html_c40041ef88b440cebbe069b849e44df1" style="width: 100.0%; height: 100.0%;">Giani Ice Cream, Vikas Cinema, Indra Nagar, Balliwala, Dehradun</div>')[0];
+                popup_1477e2ceccfa4332b56986cab4d5a1c4.setContent(html_c40041ef88b440cebbe069b849e44df1);
+            
+
+            circle_marker_9a89168ea2bc4511b7e7b376e42bef2b.bindPopup(popup_1477e2ceccfa4332b56986cab4d5a1c4);
+
+            
+        
+    
+            var circle_marker_7f39f20075644743bc862f7f7c50bd1f = L.circleMarker(
+                [30.3269,78.0449],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8614a3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8614a3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_1ed79714efb246649286fa738c896049 = L.popup({maxWidth: '300'});
+
+            
+                var html_277233af929945fa86318e6e4ffff6ea = $('<div id="html_277233af929945fa86318e6e4ffff6ea" style="width: 100.0%; height: 100.0%;">Barista, 15 A, English Book Depot, Rajpur Road, Chukkuwala, Dehradun</div>')[0];
+                popup_1ed79714efb246649286fa738c896049.setContent(html_277233af929945fa86318e6e4ffff6ea);
+            
+
+            circle_marker_7f39f20075644743bc862f7f7c50bd1f.bindPopup(popup_1ed79714efb246649286fa738c896049);
+
+            
+        
+    
+            var circle_marker_9506eeff09ce4ecb9e0947c591cd473a = L.circleMarker(
+                [30.3663,78.0705],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8614a3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8614a3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_4ffadb015ab34d9e9ef409fe33afdcfa = L.popup({maxWidth: '300'});
+
+            
+                var html_20129b6f1ec84671a3e851edf73939d7 = $('<div id="html_20129b6f1ec84671a3e851edf73939d7" style="width: 100.0%; height: 100.0%;">Dunkin&#39; Donuts, Pacific Mall, Rajpur Road, Block 139, Jakhan, Dehradun</div>')[0];
+                popup_4ffadb015ab34d9e9ef409fe33afdcfa.setContent(html_20129b6f1ec84671a3e851edf73939d7);
+            
+
+            circle_marker_9506eeff09ce4ecb9e0947c591cd473a.bindPopup(popup_4ffadb015ab34d9e9ef409fe33afdcfa);
+
+            
+        
+    
+            var circle_marker_86b405629de64a9e848b9ca67dd2f6e1 = L.circleMarker(
+                [30.3255,78.0434],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8614a3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8614a3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_42e695e64b5e45f4a3d63df3b26426cf = L.popup({maxWidth: '300'});
+
+            
+                var html_080a2ebc2f9d4a8baf7d0615da78d3c9 = $('<div id="html_080a2ebc2f9d4a8baf7d0615da78d3c9" style="width: 100.0%; height: 100.0%;">Subway, Bharat Petro Gas C-Store, Rajpur Road, Race Course, Dehradun</div>')[0];
+                popup_42e695e64b5e45f4a3d63df3b26426cf.setContent(html_080a2ebc2f9d4a8baf7d0615da78d3c9);
+            
+
+            circle_marker_86b405629de64a9e848b9ca67dd2f6e1.bindPopup(popup_42e695e64b5e45f4a3d63df3b26426cf);
+
+            
+        
+    
+            var circle_marker_de1470646f59418b85cee545f6e37d87 = L.circleMarker(
+                [30.3329,78.0537],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8614a3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8614a3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_ef6f2c2a3a9e4fa0a9c240ca90540b9a = L.popup({maxWidth: '300'});
+
+            
+                var html_4e2e1028487c439aa036f7a1f6525b72 = $('<div id="html_4e2e1028487c439aa036f7a1f6525b72" style="width: 100.0%; height: 100.0%;">Cafe Coffee Day, Ground Floor, Crossroads Mall, Karanpur, Dehradun</div>')[0];
+                popup_ef6f2c2a3a9e4fa0a9c240ca90540b9a.setContent(html_4e2e1028487c439aa036f7a1f6525b72);
+            
+
+            circle_marker_de1470646f59418b85cee545f6e37d87.bindPopup(popup_ef6f2c2a3a9e4fa0a9c240ca90540b9a);
+
+            
+        
+    
+            var circle_marker_9b8a00f43ece413ea9aa6a468ab6e219 = L.circleMarker(
+                [30.3386,78.0587],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8614a3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8614a3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_d3ed2b79766f4987b44af40e662a5409 = L.popup({maxWidth: '300'});
+
+            
+                var html_cfe02d6b0a4e4f029a2e341ea5619821 = $('<div id="html_cfe02d6b0a4e4f029a2e341ea5619821" style="width: 100.0%; height: 100.0%;">Cafe Coffee Day, 71, Swaraj Complex, Rajpur Road, Kandholi</div>')[0];
+                popup_d3ed2b79766f4987b44af40e662a5409.setContent(html_cfe02d6b0a4e4f029a2e341ea5619821);
+            
+
+            circle_marker_9b8a00f43ece413ea9aa6a468ab6e219.bindPopup(popup_d3ed2b79766f4987b44af40e662a5409);
+
+            
+        
+    
+            var circle_marker_b71d70f6cd41400290c72d1eac823e92 = L.circleMarker(
+                [30.3009,78.056],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#199c8f",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#199c8f",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_6b781709455a42938e006240d514872d = L.popup({maxWidth: '300'});
+
+            
+                var html_13f4f79edb8d429faf4668c37ebbae23 = $('<div id="html_13f4f79edb8d429faf4668c37ebbae23" style="width: 100.0%; height: 100.0%;">Cafe Lychee Tree, G-24/5, Nehru Colony, Near Idbi Bank, Dharampur, Dehradun</div>')[0];
+                popup_6b781709455a42938e006240d514872d.setContent(html_13f4f79edb8d429faf4668c37ebbae23);
+            
+
+            circle_marker_b71d70f6cd41400290c72d1eac823e92.bindPopup(popup_6b781709455a42938e006240d514872d);
+
+            
+        
+    
+            var circle_marker_7caa025751784df989638256002833d5 = L.circleMarker(
+                [30.3139,78.0355],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#199c8f",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#199c8f",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_ea8934f3d02a4938a6fc3602eb4ccfc4 = L.popup({maxWidth: '300'});
+
+            
+                var html_62859fd907a847bb832935e96f2b54d9 = $('<div id="html_62859fd907a847bb832935e96f2b54d9" style="width: 100.0%; height: 100.0%;">Spice Restaurant - Hotel Galaxy, Hotel Galaxy, 11/5, Tyagi Road, Race Course, Dehradun</div>')[0];
+                popup_ea8934f3d02a4938a6fc3602eb4ccfc4.setContent(html_62859fd907a847bb832935e96f2b54d9);
+            
+
+            circle_marker_7caa025751784df989638256002833d5.bindPopup(popup_ea8934f3d02a4938a6fc3602eb4ccfc4);
+
+            
+        
+    
+            var circle_marker_55f63240838c4f219b0941de45225d88 = L.circleMarker(
+                [30.3489,78.061],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#199c8f",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#199c8f",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_940af6ee92624c0e92f4f50784bcf06f = L.popup({maxWidth: '300'});
+
+            
+                var html_db7197076fbe424ebac12c19a2279f33 = $('<div id="html_db7197076fbe424ebac12c19a2279f33" style="width: 100.0%; height: 100.0%;">Clever Fox Cafe, Red Fox Hotel, 113 Rajpur Road, Rajpur, Dehradun</div>')[0];
+                popup_940af6ee92624c0e92f4f50784bcf06f.setContent(html_db7197076fbe424ebac12c19a2279f33);
+            
+
+            circle_marker_55f63240838c4f219b0941de45225d88.bindPopup(popup_940af6ee92624c0e92f4f50784bcf06f);
+
+            
+        
+    
+            var circle_marker_f5690c79547d4f83aef0628119102255 = L.circleMarker(
+                [30.2883,78.0033],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8614a3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8614a3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_59232a9bd01549d3b26c0016c325ebe8 = L.popup({maxWidth: '300'});
+
+            
+                var html_58c2e8a626f047a0a377b81f79429fd4 = $('<div id="html_58c2e8a626f047a0a377b81f79429fd4" style="width: 100.0%; height: 100.0%;">Hangout, Turner Road Turn, Near Rashan Bazaar, Dehradun</div>')[0];
+                popup_59232a9bd01549d3b26c0016c325ebe8.setContent(html_58c2e8a626f047a0a377b81f79429fd4);
+            
+
+            circle_marker_f5690c79547d4f83aef0628119102255.bindPopup(popup_59232a9bd01549d3b26c0016c325ebe8);
+
+            
+        
+    
+            var circle_marker_dd8bb340391240f88461b373926518b5 = L.circleMarker(
+                [30.3666,78.0702],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8614a3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8614a3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_c95ab465b96a4456909471f55ab577d4 = L.popup({maxWidth: '300'});
+
+            
+                var html_5760f5054dfb4ed78f0d68bc1bc0f6e7 = $('<div id="html_5760f5054dfb4ed78f0d68bc1bc0f6e7" style="width: 100.0%; height: 100.0%;">Pizza Hut, S 13, 3rd Floor, Pacific Mall, Jakhan, Dehradun, Jakhan, Dehradun</div>')[0];
+                popup_c95ab465b96a4456909471f55ab577d4.setContent(html_5760f5054dfb4ed78f0d68bc1bc0f6e7);
+            
+
+            circle_marker_dd8bb340391240f88461b373926518b5.bindPopup(popup_c95ab465b96a4456909471f55ab577d4);
+
+            
+        
+    
+            var circle_marker_882dd9c9f23b41f7bb450e8c0854bc9e = L.circleMarker(
+                [30.343054545454546,78.05640909090909],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#199c8f",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#199c8f",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_90fc363fd51d425db7a275af4d5492d5 = L.popup({maxWidth: '300'});
+
+            
+                var html_5e98cf955ace4458b23403287a2ad854 = $('<div id="html_5e98cf955ace4458b23403287a2ad854" style="width: 100.0%; height: 100.0%;">Cluster: 0</div>')[0];
+                popup_90fc363fd51d425db7a275af4d5492d5.setContent(html_5e98cf955ace4458b23403287a2ad854);
+            
+
+            circle_marker_882dd9c9f23b41f7bb450e8c0854bc9e.bindPopup(popup_90fc363fd51d425db7a275af4d5492d5);
+
+            
+        
+    
+            var circle_marker_204354ec80894752a0a9e1df20730bcf = L.circleMarker(
+                [30.330883333333333,78.04333333333334],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8614a3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8614a3",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8f7d9ce0f94e4e31b561946c96098955);
+            
+    
+            var popup_1f143e72e68e41a8addfa36e53a4f140 = L.popup({maxWidth: '300'});
+
+            
+                var html_9437d2bfe56d44f1b220deff6da59575 = $('<div id="html_9437d2bfe56d44f1b220deff6da59575" style="width: 100.0%; height: 100.0%;">Cluster: 1</div>')[0];
+                popup_1f143e72e68e41a8addfa36e53a4f140.setContent(html_9437d2bfe56d44f1b220deff6da59575);
+            
+
+            circle_marker_204354ec80894752a0a9e1df20730bcf.bindPopup(popup_1f143e72e68e41a8addfa36e53a4f140);
+
+            
+        
+</script>
